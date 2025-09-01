@@ -1,0 +1,1 @@
+<template><div><h3 class='text-xl font-semibold mb-4'>Professional Relationship Management</h3><p class='text-sm text-gray-600 mb-2'>Track your clients & opportunities.</p><div class='border rounded p-4'>Coming soon: client directory, touchpoints, opportunities.</div></div></template><script setup></script>

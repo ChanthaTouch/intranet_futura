@@ -1,0 +1,4 @@
+.howto/*
+-- config/config.toml
+frontend/vite.config.js
+backend/config.toml

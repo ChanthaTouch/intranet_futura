@@ -1,0 +1,19 @@
+
+:root{
+  --bg:#f6f7fb;
+  --card:#ffffff;
+  --muted:#6b7280;
+  --primary:#2563eb;
+  --primary-600:#1d4ed8;
+  --border:#e5e7eb;
+  --shadow:0 8px 30px rgba(0,0,0,.06);
+}
+html,body,#app{height:100%;}
+body{background:var(--bg); color:#111827; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, 'Apple Color Emoji','Segoe UI Emoji';}
+.card{background:var(--card); border:1px solid var(--border); border-radius:14px; box-shadow:var(--shadow);}
+.btn{border:1px solid var(--border); border-radius:10px; padding:.5rem .9rem; background:#fff;}
+.btn-primary{background:var(--primary); color:#fff; border-color:transparent;}
+.btn-primary:hover{background:var(--primary-600);}
+.input{border:1px solid var(--border); border-radius:10px; padding:.55rem .7rem; background:#fff;}
+.toolbar{display:flex; align-items:center; gap:.5rem; padding:.5rem; border-bottom:1px solid var(--border);}
+.prose :where(h1,h2,h3){font-weight:600;}

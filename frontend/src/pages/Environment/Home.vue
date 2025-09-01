@@ -1,0 +1,1 @@
+<template><div><h3 class='text-xl font-semibold mb-4'>Environment</h3><div class='border rounded p-4'>Placeholder for environment KPIs and reports.</div></div></template><script setup></script>

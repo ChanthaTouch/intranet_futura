@@ -1,0 +1,25 @@
+[app]
+name = "Futura Intranet"
+debug = true
+base_url = "https://wwwwwwwwwwwww.futura-dnc.com"
+
+[security]
+jwt_secret = "some secret here"
+access_token_exp_minutes = 60
+
+[database]
+dsn = "mysql+asyncmy://username:password@localhost:3306/databasename"
+
+[storage]
+files_dir = "./var/files"
+public_base = "https://wwwwwwwwwwwww.futura-dnc.com/public"
+
+[email]
+host = "mailhost"
+port = 587
+username = "username"
+password = "password"
+from_email = "email"
+
+[cors]
+allow_origins = ["http://localhost:5173", "http://127.0.0.1:5173", "http://wwwwwwwwwwwww.futura-dnc.com", "https://wwwwwwwwwwwww.futura-dnc.com"]
